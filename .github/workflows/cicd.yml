@@ -20,7 +20,10 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Run on Pull
+        if: github.event_name == 'pull_request'
+        run: npm test && npm deploy
+
       - name: Runs Test
         run: npm test
-        
-        
+
