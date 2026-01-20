@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => {
-    res.send("Healthy...");
+    res.status(200).send("Healthy...");
 })
 
 app.listen(3000, () => {
