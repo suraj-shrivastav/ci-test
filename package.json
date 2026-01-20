@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Tests passed\"",
-    "deploy": "echo \"Deploying to production\""
+    "test": "echo \"Tests passed\""
   },
   "keywords": [],
   "author": "",
